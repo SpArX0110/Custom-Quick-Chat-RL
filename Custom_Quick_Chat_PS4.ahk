@@ -1,5 +1,5 @@
-﻿1.0
-version := 1.0
+﻿1.1
+version := 1.1
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
