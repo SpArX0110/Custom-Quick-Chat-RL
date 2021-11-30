@@ -14,7 +14,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;
 ;====================================================================
 
-URLDownloadToFile, https://raw.githubusercontent.com/SpArX0110/RL_CQC/main/Custom_Quick_Chat_PS4.ahk, update.txt
+URLDownloadToFile, https://raw.githubusercontent.com/SpArX0110/Custom-Quick-Chat-RL/main/Custom_Quick_Chat_PS4.ahk, update.txt
 FileReadLine, update, update.txt, 1
 
 if (update <= version ) {
