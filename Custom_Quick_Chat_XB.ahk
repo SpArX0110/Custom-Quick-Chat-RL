@@ -1,5 +1,5 @@
-﻿1.0
-version := 1.0
+﻿1.1
+version := 1.1
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -42,7 +42,7 @@ FileAppend,
 (
 taskkill Custom_Quick_Chat_XB.exe
 del Custom_Quick_Chat_XB.exe
-curl -LJO https://github.com/SpArX0110/RL_CQC/releases/download/CQC_PS4/Custom_Quick_Chat_XB.exe
+curl -LJO https://github.com/SpArX0110/Custom-Quick-Chat-RL/releases/download/XB/Custom_Quick_Chat_XB.exe
 start Custom_Quick_Chat_XB.exe
 EXIT /B
 ), update.bat
