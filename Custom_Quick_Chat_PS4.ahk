@@ -1,5 +1,5 @@
-﻿1.1
-version := 1.1
+﻿1.2
+version := 1.2
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -65,7 +65,7 @@ WINTITLE := basename1 "_" "Version" "_" VERSION
 
 #SingleInstance force  
 #NoENV              ; Avoids checking empty variables to see if they are environment variables (recommended for all new scripts and increases performance).
-SetTitleMatchMode, 3
+SetTitleMatchMode, 2
 SetBatchLines -1    ; have the script run at maximum speed and never sleep
 ListLines Off       ; a debugging option
 
@@ -453,6 +453,8 @@ ExitApp
 return
 
 Quickchat_Menue:
+#IfWinActive, Rocket League
+	
 {
 ;ingame GUI
 {
