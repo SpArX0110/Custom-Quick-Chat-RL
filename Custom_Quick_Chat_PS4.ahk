@@ -1,5 +1,5 @@
-﻿1.2
-version := 1.2
+﻿1.3
+version := 1.3
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -65,10 +65,9 @@ WINTITLE := basename1 "_" "Version" "_" VERSION
 
 #SingleInstance force  
 #NoENV              ; Avoids checking empty variables to see if they are environment variables (recommended for all new scripts and increases performance).
-SetTitleMatchMode, 2
+SetTitleMatchMode, 3
 SetBatchLines -1    ; have the script run at maximum speed and never sleep
 ListLines Off       ; a debugging option
-
 
 delay = 50
 menue_x := A_ScreenWidth/80
@@ -453,10 +452,11 @@ ExitApp
 return
 
 Quickchat_Menue:
-#IfWinActive, Rocket League
+#IfWinActive Rocket League (64-bit`, DX11`, Cooked) 
 	
 {
 ;ingame GUI
+
 {
 CustomColor := "000000"  ; Can be any RGB color (it will be made transparent below).
 TextColor := "27B6F3"
